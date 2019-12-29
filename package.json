@@ -1,0 +1,24 @@
+{
+  "name": "remarkable-node",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:kevlened/remarkable-node.git",
+  "author": "kevlened <boyettel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node ./test",
+    "build:types": "tsc --declaration --stripInternal --emitDeclarationOnly --allowJs src/index.js --outDir dist",
+    "deploy": "yarn build:types && np"
+  },
+  "dependencies": {
+    "getmac": "^5.0.0",
+    "got": "^10.2.0",
+    "hex-lite": "^1.5.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "np": "^5.2.1",
+    "typescript": "^3.7.4"
+  }
+}
