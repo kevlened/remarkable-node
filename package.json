@@ -7,7 +7,6 @@
   "author": "kevlened <boyettel@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "node ./test",
     "build:types": "tsc --declaration --stripInternal --emitDeclarationOnly --allowJs src/index.js --outDir dist",
     "deploy": "yarn build:types && np"
   },

@@ -1,3 +1,5 @@
+### Deprecated in favor of https://github.com/Ogdentrod/reMarkable-typescript
+
 # remarkable-node
 Unofficial reMarkable api wrapper for node.js based on [these unofficial docs](https://github.com/splitbrain/ReMarkableAPI/wiki).
 
